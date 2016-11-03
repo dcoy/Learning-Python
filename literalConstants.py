@@ -12,6 +12,9 @@ print(integerExample)
 print(floatExample)
 print(newFloatExample)
 
+# To print more logic on a single physical line, use ;
+i = 10; print(i);
+
 # Strings are literal constants
 
 # Instantiate variable with string -- bad naming ¯\_(ツ)_/¯
