@@ -9,7 +9,7 @@ number = 23
 running = True
 
 while running:
-    guess = int(input('Enter an integer : '))
+    guess = int(input('Enter an integer: '))
 
     if guess == number:
         print('Congratulations, you guess it!')

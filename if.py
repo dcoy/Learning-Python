@@ -7,7 +7,7 @@
 # Variable declaration
 number = 23
 # Accept user input and store it in the variable 'guess'
-guess = int(input('Enter an integer : '))
+guess = int(input('Enter an integer: '))
 
 if guess == number:
     # New block starts here
