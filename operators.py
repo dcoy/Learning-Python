@@ -1,4 +1,5 @@
-# Mathematical Operators
+# Mathematical Operators -- check the following link for evaluation order of operators:
+# https://docs.python.org/3/reference/expressions.html#operator-precedence
 
 # Addition
 print("This is the addition(+) operator")
