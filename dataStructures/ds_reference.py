@@ -1,4 +1,8 @@
 # This will demonstrate the usage of the 'references' in data structures.
+# How this works:  if you want to make a copy, you will need to 'slice' the list
+# and cannot simply assign it to a new variable.  This creates a reference by which
+# the new variable will reference the original variable and return the same
+# objects that the origina variable references.  Example below:
 
 print('Variable Assignment')
 shoppingList = ['apple', 'banana', 'spinach', 'carrots', 'eggs']
