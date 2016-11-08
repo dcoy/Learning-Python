@@ -27,3 +27,7 @@ The three types of sequences also have a *slicing* operation which will allow us
 #### Set
 
 A *set* is an unordered collection of simple objects.  These are used when an object within a collection is more important than the order or amount it occurs.  By using sets, membership tests can be run, regardless if it's a subset of another set.  Run `help(set)` to display all properties of the set data structure.
+
+#### References
+
+When an object is created and assigned to a variable, the variable is only referring to the object and doesn't represent it.  This is called *binding* the name to the object.  There's a subtle effect due to references that need to known.
