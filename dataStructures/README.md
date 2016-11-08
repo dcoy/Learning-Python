@@ -16,4 +16,10 @@ Tuples are used to hold together multiple objects.  Tuples are similar to lists,
 
 A *dictionary* is similar to an address-book where contacts are listed by their name and associated with an address, phone number, etc.  The *keys* are the names of the individuals/businesses and the *values* are the details associated with those individuals/businesses.  
 
-Keys can only be immutable objects(like strings), however, values can be immutable and mutable objects(strings and integers).  Key-value pairs are specified in a dictionary in this manner: `dict = {key1: value1, key2: value2}`.  Key-value pairs in a dictionary are not ordered in any specific manner.  If the intention is to have a specific order, the data must be sorted prior to adding them to a dictionary.  Run `help(dict)` to display all properties of the tuple data type.
+Keys can only be immutable objects(like strings), however, values can be immutable and mutable objects(strings and integers).  Key-value pairs are specified in a dictionary in this manner: `dict = {key1: value1, key2: value2}`.  Key-value pairs in a dictionary are not ordered in any specific manner.  If the intention is to have a specific order, the data must be sorted prior to adding them to a dictionary.  Run `help(dict)` to display all properties of the dictionary data type.
+
+#### Sequence
+
+Lists, tuples and strings are examples of sequences.  The major feature of sequences are *membership tests*, the `in` and `not in` expressions, and *indexing operations*, which allows you to fetch a particular item in the sequence directly.
+
+The three types of sequences also have a *slicing* operation which will allow us to retrieve part of the sequence.  Run `help(slice)` to display all properties of the slice operation.
