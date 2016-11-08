@@ -17,5 +17,6 @@ print('Shopping list sorted:', shoppingList)
 
 print('\nThe first item I will buy is', shoppingList[0])
 oldItem = shoppingList[0]
+del shoppingList[0]
 print('I bought the', oldItem)
 print('My shopping list is now', shoppingList)
