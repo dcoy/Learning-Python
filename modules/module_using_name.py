@@ -1,4 +1,4 @@
-# This will demonstrate the usage of modules by importing the '__name__' attribute.
+# This will demonstrate the usage of modules by using the '__name__' attribute.
 
 if __name__ == '__main__':
     print('This program is being run by itself')
