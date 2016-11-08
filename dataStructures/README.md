@@ -13,3 +13,7 @@ A *list* is a data structure that holds an ordered collection of items and you c
 Tuples are used to hold together multiple objects.  Tuples are similar to lists, but not as extensive as lists are.  Tuples are *immutable*, meaning they cannot be modified.  Tuples are defined by specifying items separated by commas within an option pair of parentheses, `()`. Run `help(tuple)` to display all properties of the tuple data type.
 
 #### Dictionary
+
+A *dictionary* is similar to an address-book where contacts are listed by their name and associated with an address, phone number, etc.  The *keys* are the names of the individuals/businesses and the *values* are the details associated with those individuals/businesses.  
+
+Keys can only be immutable objects(like strings), however, values can be immutable and mutable objects(strings and integers).  Key-value pairs are specified in a dictionary in this manner: `dict = {key1: value1, key2: value2}`.  Key-value pairs in a dictionary are not ordered in any specific manner.  If the intention is to have a specific order, the data must be sorted prior to adding them to a dictionary.  Run `help(dict)` to display all properties of the tuple data type.
