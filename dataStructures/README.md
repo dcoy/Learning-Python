@@ -23,3 +23,7 @@ Keys can only be immutable objects(like strings), however, values can be immutab
 Lists, tuples and strings are examples of sequences.  The major feature of sequences are *membership tests*, the `in` and `not in` expressions, and *indexing operations*, which allows you to fetch a particular item in the sequence directly.
 
 The three types of sequences also have a *slicing* operation which will allow us to retrieve part of the sequence.  Run `help(slice)` to display all properties of the slice operation.
+
+#### Set
+
+A *set* is an unordered collection of simple objects.  These are used when an object within a collection is more important than the order or amount it occurs.  By using sets, membership tests can be run, regardless if it's a subset of another set.  Run `help(set)` to display all properties of the set data structure.
