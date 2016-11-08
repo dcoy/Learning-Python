@@ -31,3 +31,7 @@ A *set* is an unordered collection of simple objects.  These are used when an ob
 #### References
 
 When an object is created and assigned to a variable, the variable is only referring to the object and doesn't represent it.  This is called *binding* the name to the object.  There's a subtle effect due to references that need to known.
+
+#### Strings
+
+Strings are objects that have methods that can check part of a string as well as strip spaces out of the string.  They're all objects of the class `str`.  Run `help(str)` to display all methods of the string data type.
