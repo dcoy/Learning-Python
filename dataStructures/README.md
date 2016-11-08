@@ -10,4 +10,6 @@ A *list* is a data structure that holds an ordered collection of items and you c
 
 #### Tuple
 
-Tuples are used to hold together multiple objects.  Tuples are similar to lists, but not as extensive as lists are.  Tuples are *immutable*, meaning they cannot be modified.  Tuples are defined by specifying items separated by commas within an option pair of parentheses.
+Tuples are used to hold together multiple objects.  Tuples are similar to lists, but not as extensive as lists are.  Tuples are *immutable*, meaning they cannot be modified.  Tuples are defined by specifying items separated by commas within an option pair of parentheses, `()`. Run `help(tuple)` to display all properties of the tuple data type.
+
+#### Dictionary
