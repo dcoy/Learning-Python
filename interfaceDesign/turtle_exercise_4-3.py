@@ -16,8 +16,6 @@ def polygon(t, length, n):
 
 # def circle(t, r):
 
-
-
 square(2, 200)
 polygon(2, 3, 20)
 circle()
