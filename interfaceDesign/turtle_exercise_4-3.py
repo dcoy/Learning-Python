@@ -9,13 +9,13 @@ def square(t, length):
         t.lt(90)
 
 def polygon(t, length, n):
-    bob = turtle.Turtle()
+    t = turtle.Turtle()
     for i in range(n):
-        bob.fd(length)
-        bob.lt(360/n)
+        t.fd(length)
+        t.lt(360/n)
 
 # def circle(t, r):
 
 square(2, 200)
 polygon(2, 3, 20)
-circle()
+# circle()
