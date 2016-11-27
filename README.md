@@ -1,6 +1,6 @@
 ### Learning Python
 
-This is the repository where I'm logging what I learn with Python 3. I am using [Think Python 2](http://greenteapress.com/wp/think-python-2e/).  
+This is the repository where I'm logging what I learn with Python 3. I am using [Think Python 2](http://greenteapress.com/wp/think-python-2e/) by Green Tea Press.  
 
 I will also be creating scripts to interact with
 
