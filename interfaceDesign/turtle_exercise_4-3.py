@@ -14,8 +14,14 @@ def polygon(t, length, n):
         t.fd(length)
         t.lt(360/n)
 
-# def circle(t, r):
+def circle(t, r):
+    t = turtle.Turtle()
+    circumference = polygon(2, 10, 30)
+    for i in range(r):
+        t.fd(circumference)
+        t.lt(360/n)
+
 
 square(2, 200)
 polygon(2, 3, 20)
-# circle()
+circle(2, 20)
