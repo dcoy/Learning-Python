@@ -21,6 +21,12 @@ def circle(t, r):
         t.fd(circumference)
         t.lt(360/n)
 
+# def arc(angle):
+#     t = turtle.Turtle()
+#     for i in range():
+#         t.fd()
+#         t.lt()
+
 
 square(2, 200)
 polygon(2, 3, 20)
